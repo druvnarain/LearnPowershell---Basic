@@ -9,9 +9,9 @@ Multi line comment
   .SYNOPSIS
    Says hello to anyone who runs this script.
   .DESCRIPTION
-   The Hello.ps1 script prints our Hello how are you to the screen.
-  .PARAMETER Name
-   Specifies the name of the person running the script.
+   I'm learning powershell!
+  .PARAMETER number
+   Specifies a number.
   .INPUTS
    None. You cannot pipe objects to Hello.ps1.
   .OUTPUTS
@@ -19,7 +19,7 @@ Multi line comment
   .EXAMPLE
    C:\PS> .\Hello.ps1
   .EXAMPLE
-   C:\PS> .\Hello.ps1 -Name Ian
+   You can have multiple examples
 #>
 
 Write-Host "Hello"
